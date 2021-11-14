@@ -1,0 +1,37 @@
+.blinds {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+	padding: 10px 20px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+	border: 2px solid white;
+}
+.blinds__icon {
+    margin-right: 20px;
+}
+
+.blinds__icon img {
+    height: 50px;
+}
+
+.blinds__controls .button {
+    padding: 10px;
+    border: none;
+}
+
+.blinds__controls .button:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.blinds__controls .button:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.button--active {
+    background-color: #00BFFF;
+    color: #FFFAFA;
+    font-weight: bold;
+}

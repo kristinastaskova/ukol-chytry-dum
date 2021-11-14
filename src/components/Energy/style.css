@@ -1,0 +1,33 @@
+.energy {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+	padding: 10px 20px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+	border: 2px solid white;
+}
+.energy__source {
+    display: flex;
+    flex-wrap: nowrap;
+	padding: 10px 20px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.energy__icon {
+    margin-right: 20px;
+}
+
+.energy__icon img {
+    height: 50px;
+}
+.energy__description {
+    color: #A9A9A9;
+}
+
+.energy__value {
+    font-weight: bold;
+}
+

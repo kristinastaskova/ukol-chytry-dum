@@ -7,3 +7,15 @@
 html {
   font-family: 'Open Sans', sans-serif;
 }
+
+body {
+  background-image: url(/src/images/house.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+}

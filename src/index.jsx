@@ -8,7 +8,7 @@ import Dashboard from './components/Dashboard';
 const App = () => (
   <>
     <div className="container">
-      <Header title="Chytrá domácnost" />
+      <Header title="Chytrý dům" />
       <Dashboard data={smartHomeData} />
 
     </div>

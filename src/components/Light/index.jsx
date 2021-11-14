@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LightOn from './images/light-on.svg';
 import LightOff from './images/light-off.svg';
-
+import './style.css';
 
 const Light = ({ name, state }) => {
     const [lightState, setLightState] = useState(state)

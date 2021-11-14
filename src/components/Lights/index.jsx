@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import Light from '../Light';
-
+import './style.css';
 
 const Lights = ({ lights }) => {
     return (

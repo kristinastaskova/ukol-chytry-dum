@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import open from './images/blinds-open.svg';
 import closed from './images/blinds-closed.svg';
+import './style.css';
+
 
 const Blinds = ({ state }) => {
     const [blinds, setBlinds] = useState(state)
